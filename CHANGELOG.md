@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] - 2025-10-21
+
 ### Changed
 
 - Upgrade IRSA to latest v0.6.9
@@ -301,7 +303,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial chart release
 
-[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.1...v2.0.0
 [1.19.1]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.0...v1.19.1
 [1.19.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.18.0...v1.19.0
 [1.18.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.17.0...v1.18.0
