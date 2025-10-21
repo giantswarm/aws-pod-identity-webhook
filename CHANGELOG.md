@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Upgrade IRSA to latest v0.6.9
+
 ## [1.19.1] - 2025-03-18
 
 ### Changed
