@@ -12,16 +12,8 @@ project:
 image:
   registry: gsoci.azurecr.io
   name: giantswarm/amazon-eks-pod-identity-webhook
-  tag: v0.4.0
+  tag: v0.6.7
   pullPolicy: IfNotPresent
-
-# We currently have two images available to us as we move towards https://github.com/giantswarm/roadmap/issues/1640
-# This will change when we have changes in our fork merged back upstream.
-# We have to support two images for now because the kiam-agent "vintage" clusters on older release versions (< v18.1.0) doesn't allow
-# for the network calls in changes made and this causes the deployment to fail.
-gsImage:
-  name: giantswarm/amazon-eks-pod-identity-webhook-gs
-  tag: v0.2.0
 
 # provider
 # Identifies the cloud provider. This *must*
