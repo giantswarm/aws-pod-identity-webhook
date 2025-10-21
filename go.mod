@@ -3,7 +3,7 @@ module github.com/giantswarm/aws-pod-identity-webhook
 go 1.24.1
 
 require (
-	github.com/giantswarm/k8sclient/v8 v8.0.0
+	github.com/giantswarm/k8sclient/v8 v8.1.0
 	github.com/giantswarm/microerror v0.4.1
 	github.com/giantswarm/micrologger v1.1.2
 	github.com/spf13/cobra v1.9.1
