@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Set VPA `minAllowed` CPU to 50m. Otherwise VPA will set the CPU to tiny values that will cause CPU throttling.
+
 ## [2.0.0] - 2025-10-21
 
 ### Changed
