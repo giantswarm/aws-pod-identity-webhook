@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2025-12-01
+
 ### Changed
 
 - Set VPA `minAllowed` CPU to 50m. Otherwise VPA will set the CPU to tiny values that will cause CPU throttling.
@@ -307,7 +309,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial chart release
 
-[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.1...v2.0.0
 [1.19.1]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.0...v1.19.1
 [1.19.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.18.0...v1.19.0
