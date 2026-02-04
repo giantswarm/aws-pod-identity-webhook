@@ -6,6 +6,7 @@ home: https://github.com/giantswarm/aws-pod-identity-webhook
 sources:
   - https://github.com/aws/amazon-eks-pod-identity-webhook
 version: 2.1.0
+appVersion: 0.6.7
 annotations:
   application.giantswarm.io/team: "phoenix"
   config.giantswarm.io/version: 1.x.x
