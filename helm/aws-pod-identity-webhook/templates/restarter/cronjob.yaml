@@ -31,7 +31,7 @@ spec:
             {{- . | toYaml | nindent 12 }}
           {{- end }}
           containers:
-            - image: "{{ .Values.image.registry }}/{{ .Values.restarter.image.name }}:{{ default .Chart.Version .Values.restarter.image.tag }}"
+            - image: "{{ .Values.image.registry }}/{{ .Values.restarter.image.name }}:{{ default .Chart.AppVersion .Values.restarter.image.tag }}"
               imagePullPolicy: IfNotPresent
               name: pod-restarter
               resources:
