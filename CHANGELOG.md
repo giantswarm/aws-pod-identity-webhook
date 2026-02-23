@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Sanitize `Chart.Version` when used in labels due to flux appending the artifact digest to the version.
+
 ## [2.1.0] - 2025-12-01
 
 ### Changed
