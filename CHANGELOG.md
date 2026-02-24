@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2026-02-24
+
 ### Changed
 
 - Sanitize `Chart.Version` when used in labels due to flux appending the artifact digest to the version.
@@ -313,7 +315,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial chart release
 
-[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.1...v2.0.0
 [1.19.1]: https://github.com/giantswarm/aws-pod-identity-webhook/compare/v1.19.0...v1.19.1
