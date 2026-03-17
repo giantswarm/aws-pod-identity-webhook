@@ -7,5 +7,10 @@ sources:
   - https://github.com/aws/amazon-eks-pod-identity-webhook
 version: 2.2.0
 annotations:
-  application.giantswarm.io/team: "phoenix"
   config.giantswarm.io/version: 1.x.x
+  io.giantswarm.application.audience: all
+  io.giantswarm.application.managed: "true"
+  io.giantswarm.application.team: phoenix
+  io.giantswarm.application.upstream-chart-url: https://github.com/aws/amazon-eks-pod-identity-webhook
+  io.giantswarm.application.restrictions.cluster-singleton: "true"
+  io.giantswarm.application.restrictions.compatible-providers: "aws"
