@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add `io.giantswarm.application.audience: all` annotation to publish the app to the customer Backstage catalog.
 - Migrate chart metadata annotations to `io.giantswarm.application.*` format.
+- Use Helm `appVersion` as the default version for the restarter container image.
 
 ## [2.2.0] - 2026-02-24
 
