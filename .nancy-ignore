@@ -1,1 +1,1 @@
-CVE-2025-22872 until=2025-10-09 # golang.org/x/net@v0.37.0
+CVE-2026-35469 until=2026-08-09 # github.com/moby/spdystream@v0.5.0
