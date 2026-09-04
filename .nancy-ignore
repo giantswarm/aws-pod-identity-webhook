@@ -1,1 +1,2 @@
 CVE-2026-37236 until=2026-10-01 # github.com/grpc-ecosystem/grpc-gateway/v2@v2.26.3
+CVE-2026-81870 until=2026-10-04 # go.opentelemetry.io/otel/exporters/otlp/otlptrace@v1.34.0
