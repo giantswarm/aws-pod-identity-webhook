@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Build and publish `linux/arm64` images of `aws-pod-identity-restarter`.
+
 ### Fixed
 
 - Bump `golang.org/x/net` to v0.61.0.
