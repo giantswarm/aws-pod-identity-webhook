@@ -88,6 +88,6 @@ replace (
 	golang.org/x/mod v0.38.0 => golang.org/x/mod v0.40.0
 )
 
-replace golang.org/x/net v0.46.0 => golang.org/x/net v0.61.0
+replace golang.org/x/net v0.46.0 => golang.org/x/net v0.62.0
 
 replace google.golang.org/grpc v1.72.1 => google.golang.org/grpc v1.83.2
